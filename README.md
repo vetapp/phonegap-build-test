@@ -29,6 +29,6 @@ Related Work
 Other projects doing this are:
 
 - http://devgirl.org/2013/06/10/quick-start-guide-phonegap-and-angularjs/
-- https://www.google.de/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&ved=0CDQQFjAB&url=http%3A%2F%2Fbriantford.com%2Fblog%2Fangular-phonegap.html&ei=TozRUbzuGMaSO7-5gcAB&usg=AFQjCNHjqcYMDo0LuMxOhPANFKdoNULbfA&sig2=AMbDAnFFZdCli6edl_qwAA
+- http://briantford.com/blog/angular-phonegap.html
 - https://github.com/lancevo/PhoneGap-AngularJS
 
