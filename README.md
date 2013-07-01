@@ -20,7 +20,7 @@ This application should be buildable for iOS,Android and WP8 and Google App Stor
 The build process should be executable from the command line of the
 requisite platforms or via command line push to an online service. 
 
-The process for each platforms should be documented in [BUILD.md].
+The process for each platforms should be documented in [Build Instructions](BUILD.md).
 
 
 Related Work
