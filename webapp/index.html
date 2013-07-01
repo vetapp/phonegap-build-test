@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en" ng-app="application">
+<head>
+  <title>PhoneGap Angular Test</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <base href='http://localhost:8888/' />
+  <script src="lib/vendor/custom.modernizr.js"></script>
+  
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="application/application.css" />
+  <link rel="stylesheet" href="css/app.css" />
+  <link rel="stylesheet" href="fonts/roboto/stylesheet.css" />
+  
+  <script src="lib/vendor/jquery.js"></script>
+  <script src="lib/foundation/foundation.js"></script>
+  
+  <script src="lib/angular.js"></script>
+  <script src="lib/angular-resource.js"></script>
+  <script src="lib/angular-ui-keypress.js"></script>
+  
+  <script src="lib/vendor/moment.js"></script>
+  
+  <script src="application/application.js"></script>
+  <script src="application/configuration-constants.js"></script>
+  
+  <script src="options/options-service.js"></script>
+  <script src="about/about-controller.js"></script>
+  
+  <script src="main/main-controller.js"></script>
+  
+</head>
+<body class='antialiased no-scroll'>
+
+  <div class='full-height' ng-view/>
+
+  <script>
+    $(document).foundation();
+  </script>
+  
+</body>
+</html>

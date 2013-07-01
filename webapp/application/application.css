@@ -1,0 +1,306 @@
+/* app css stylesheet */
+
+html,
+body {
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  user-select: none;
+  
+}
+
+header h5 {
+  padding: 10px;
+  width: 100%;
+  margin: 0px auto;
+}
+
+header img {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  max-height: 32px;
+}
+
+a {
+  cursor: pointer;
+}
+
+.reveal-modal form {
+  margin-bottom: 0px;
+}
+
+.button.finish {
+  position: fixed;
+  right: 16px;
+  bottom: 24px;
+  box-shadow: 0 2px 18px rgba(0,0,0,0.25); 
+}
+.no-scroll {
+  overflow: hidden;
+}
+
+.full-height {
+  height: 100%; 
+  margin: 0px;
+  padding: 0px;
+}
+
+.full-size {
+  height: 100%; 
+  width: 100%; 
+}
+
+.vContainer {top:0px; bottom:0px; width:100%; position: absolute; margin: -0px 0 0 -0px; left:0%; right:0%;}
+
+.vContent  {height:1em; position:absolute;margin: -0px 0 0 -200px; width:400px; left: 50%; top:50%; }
+
+.centered-background {
+  background-repeat: no-repeat;
+  background-position: -60px 50px;
+  background-size: 400px;
+  background-clip: true;
+  
+  height: 100%;
+  padding: 20px;
+  border-style: solid;
+  border-color: rgba(255,255,255,0.1);
+  border-width: 1px;
+}
+
+.bottom-bar {  
+  left: 4px;
+  bottom: 4px;
+  position: absolute;
+}
+
+.image-container {
+  clip: auto;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100%; 
+  width: 100%; 
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+}
+
+.image-display {
+  position: relative;
+}
+
+.image-display img {
+   box-shadow: 0 5px 7px rgba(0,0,0,0.65);
+}
+
+
+.image-buttons-bar {
+  box-shadow: 0 1px 7px rgba(0,0,0,0.65);
+  -webkit-border-radius: 4px;
+          border-radius: 4px;
+
+  padding: 0px;
+  background-color: #ddd;  
+  overflow: hidden;
+}
+
+.image-buttons-bar a {
+  border-right: 1px solid #555;
+  margin: 0px;
+  padding: 2px;
+  display: inline-block;
+  width: 38px;
+  height: 38px;
+}
+
+.image-buttons-bar a:hover {
+  background-color: rgba(255,255,255,0.4);
+/*  -webkit-filter: brightness(120%) */
+}
+
+.image-buttons-bar a.active {
+  background-color: rgba(255,255,255,0.8);
+  /*-webkit-filter: brightness(120%) */
+}
+
+.image-buttons-bar a:first-child {
+  -webkit-border-top-left-radius: 4px;
+          border-top-left-radius: 4px;
+  -webkit-border-bottom-left-radius: 4px;
+          border-bottom-left-radius: 4px;
+  
+}
+
+.image-buttons-bar a:last-child {
+  -webkit-border-top-right-radius: 4px;
+          border-top-right-radius: 4px;
+  -webkit-border-bottom-right-radius: 4px;
+          border-bottom-right-radius: 4px;
+  border-right: none;
+}
+
+.button-font {
+  font-family: 'Tahoma', 'Sans-Serif';
+  font-size: 0.7em;
+}
+
+.image-layers-container {
+  position: absolute;
+  height: 100%;  
+  width: 100%;  
+  background-color: rgb(255,255,0,0.2);
+}
+
+.image-layers-list {
+  position: absolute;
+  float: right;
+  top: 4px;
+  right: 4px;
+  font-size: 12pt;
+  vertical-align: middle;
+}
+
+.image-layers-list {
+  list-style-type: none;
+  line-height: 24px;
+  background-color: rgba(255,255,255,0.7);
+  padding: 4px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(255,255,255,0.9);
+}
+
+.image-layers-list li {  
+  min-width: 110px;
+}
+
+.image-layers-list li img {
+  opacity: 0.6;
+  vertical-align: middle;
+  margin-left: 1em;
+  float: right;  
+}
+
+.image-overlays {
+  position: absolute;
+  width: 100%;  
+  height: 100%;  
+}
+
+.viewer-mode {
+  position: fixed;
+  top: 10px;
+  left: 0%;
+  right: 0%;
+  line-height: 24px;
+  font-size: 12px;
+  font-family: 'Tahoma', 'Sans-Serif'; 
+}
+
+.viewer-mode-bar {
+  position: absolute;
+  padding: 4px 6px;
+  left: 10%;
+  right: 10%;
+  top: -2px;
+  border-radius: 0px;
+  box-shadow: 0 1px 7px rgba(0,0,0,0.65);
+  background-color: rgba(237,237,0,0.3);
+  color: black;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.viewer-mode img.icon {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+}
+
+.viewer-mode .description {
+  margin-left: 8px;
+  font-size: 10px;
+}
+
+.viewer-mode .cancel {
+  float: right;
+  vertical-align: middle;   
+  display: inline-block;
+  margin: 0px !important;
+  padding: 6px 8px !important;
+}
+
+.viewer-frame {
+  margin: 0px;
+  padding: 48px;
+}
+
+.viewer-area {
+  margin: 0px;
+  padding: 0px;
+  height: 100%; 
+  width: 100%; 
+  overflow: hidden;
+  position: relative;
+}
+
+.viewer-button-area {
+  background-color: black;
+}
+
+.viewer-border {
+  margin: 0px;
+  padding: 28px;
+  height: 100%; 
+}
+
+.viewer-button {
+  float: left;
+  bottom: 32px;
+  position: relative;
+  margin: 0px 0px 0px 4px;
+  width: 32px;
+  height: 32px;
+}
+
+.corner-overlay {
+  position: absolute;
+  left: -12px;
+  top: -12px;
+}
+
+.hidden {
+  display: none;
+}
+
+
+.scrollbox {
+  overflow: auto;
+  max-height: 800px;
+  margin: 0px auto;
+
+  background:
+    /* Shadow covers */
+    linear-gradient(white 30%, rgba(255,255,255,0)),
+    linear-gradient(rgba(255,255,255,0), white 70%) 0 100%,
+    
+    /* Shadows */
+    radial-gradient(50% 0, farthest-side, rgba(0,0,0,.2), rgba(0,0,0,0)),
+    radial-gradient(50% 100%,farthest-side, rgba(0,0,0,.2), rgba(0,0,0,0)) 0 100%;
+  background:
+    /* Shadow covers */
+    linear-gradient(white 30%, rgba(255,255,255,0)),
+    linear-gradient(rgba(255,255,255,0), white 70%) 0 100%,
+    
+    /* Shadows */
+    radial-gradient(farthest-side at 50% 0, rgba(0,0,0,.2), rgba(0,0,0,0)),
+    radial-gradient(farthest-side at 50% 100%, rgba(0,0,0,.2), rgba(0,0,0,0)) 0 100%;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-size: 100% 40px, 100% 40px, 100% 14px, 100% 14px;
+  
+  /* Opera doesn't support this in the shorthand */
+  background-attachment: local, local, scroll, scroll;
+}

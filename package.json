@@ -1,0 +1,33 @@
+{
+  "name": "phonegap-build-test-webapp",
+  "version": "0.0.1",
+  "description": "A webapp module for testing the phonegap build process",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "web": "nodemon -e js,coffee -w api  test-server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@dev.curasystems.com:vetapp/phonegap-build-test.git"
+  },
+  "keywords": [
+    "mcp",
+    "webapp",
+    "umm",
+    "fgv"
+  ],
+  "author": "Matthias Goetzke",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "coffee-script": "git://github.com/curasystems/coffee-script.git#source_maps",
+    "source-map-support": "git://github.com/curasystems/node-source-map-support.git",
+    "mkdirp": "~0.3.5"
+  },
+  "devDependencies": {
+    "express": "~3.1.1",
+    "express-webapp-host": "~0.1.8",
+    "express-minify": "0.0.4"
+  }
+}
