@@ -1,16 +1,34 @@
-# Charite Wunddokumentation
+PhoneGap Angular Test
+=====================
+
+Simple test application to establish a build process to create a phonegap application for angular apps.
+
+Run
+---
+
+- download repo
+- install node 0.10.x
+
+    npm install
+    npm run-script web
+
+Todo
+----
+
+This application should be buildable for iOS,Android and WP8 and Google App Store. 
+
+The build process should be executable from the command line of the
+requisite platforms or via command line push to an online service. 
+
+The process for each platforms should be documented in [BUILD.md].
 
 
+Related Work
+------------
 
-## Arguments (Command Line / Query)
+Other projects doing this are:
 
-/wait /CommandFilter=CHARITE_WUNDDOK /sysid=0001 /mandt=0002 /dokar=ABC /doknr=1234567890 /dokvr=1 /doktl=2 /response=C:\temp\test.xml /rights=modify
-
-/wait /CommandFilter=CHARITE_WUNDDOK /sysid=0001 /mandt=0002 /dokar=ABC /doknr=1234567890 /dokvr=1 /doktl=2 /response=C:\temp\test.xml /rights=view
-
-/wait /CommandFilter=CHARITE_WUNDDOK /sysid=0001 /mandt=0002 /dokar=ABC /doknr=1234567890 /dokvr=1 /doktl=2 /response=C:\temp\test.xml /delete
-
-/wait /CommandFilter=CHARITE_WUNDDOK /sysid=0001 /mandt=050 /dokar=ZWD /doknr=0000000000000010023222840 /dokvr=00 /doktl=000 /response=C:\temp\test.xml /rights=view
-
-
+- http://devgirl.org/2013/06/10/quick-start-guide-phonegap-and-angularjs/
+- https://www.google.de/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&ved=0CDQQFjAB&url=http%3A%2F%2Fbriantford.com%2Fblog%2Fangular-phonegap.html&ei=TozRUbzuGMaSO7-5gcAB&usg=AFQjCNHjqcYMDo0LuMxOhPANFKdoNULbfA&sig2=AMbDAnFFZdCli6edl_qwAA
+- https://github.com/lancevo/PhoneGap-AngularJS
 

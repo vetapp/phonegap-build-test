@@ -25,7 +25,7 @@ var dependentModules = [
 angular.module('application', dependentModules ).
   config(['$routeProvider', '$locationProvider',  function($routeProvider, $locationProvider) {
 
-    $locationProvider.html5Mode(true);
+    //$locationProvider.html5Mode(true);
 
     $routeProvider.
       when('/about', {templateUrl: 'about/about-partial.html'}).
