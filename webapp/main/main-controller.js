@@ -8,6 +8,10 @@ Application.Controllers.controller('main', ['$scope', '$rootScope', '$location',
   $scope.about = function(){
     $location.path('/about');
   }
+
+  $scope.camera = function(){
+    $location.path('/camera');
+  }
 }]);
 
 function linkToHost(){
