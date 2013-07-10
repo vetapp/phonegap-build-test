@@ -1,0 +1,18 @@
+<div ng-controller="camera" class="full-height">
+  <div class="row">
+    <div class="small-12 columns">
+      <img src="img/logo.png"/>
+    </div>
+  </div>
+  <div class="row">
+      <div class="small-4 columns">
+          <button class='button' ng-click="takePicture()">Take picture with camera</button>
+          <br>
+          <button class='button' ng-click="loadPicture()">Load Picture from device</button>
+          <br>
+        
+        See the result here
+        <img width=300 height=200 id='myImage' />
+    </div>
+  </div>
+</div>
