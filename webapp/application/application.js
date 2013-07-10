@@ -29,6 +29,7 @@ angular.module('application', dependentModules ).
 
     $routeProvider.
       when('/about', {templateUrl: 'about/about-partial.html'}).
+      when('/camera', {templateUrl: 'camera/camera-partial.html'}).
       otherwise({templateUrl: 'main/main-partial.html'});
   }]);
 
