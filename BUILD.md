@@ -24,7 +24,7 @@ Buildsteps:
 ![watch build](/howto/building.png "The build process is started")
 
 - And download your app in for the platform of your choice
-![ready](/howto/buildready.png "The build process is ready")
+![ready](/howto/buildReady.png "The build process is ready")
 
 
 
