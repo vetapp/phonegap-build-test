@@ -16,7 +16,7 @@ First of all you have to prepare your phone to provide the information needed by
 - Go to Advanced and make sure "Web Inspector" is activated.
 ![Webinspector](/howto/debuggingios/developersettings_2x.png "Web Inspector")
 
-Now open safari on your mac and connect your Iphone to your mac.
+-Now open safari on your mac and connect your Iphone to your mac.
 
 - Under the menu "Develop" you should see your Iphone now:
 ![Develop menu](/howto/debuggingios/developmenufromwebview_2x.png "Developer menu")
